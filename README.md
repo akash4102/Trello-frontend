@@ -27,7 +27,7 @@ This is a simple Trello clone application built with React and Node.js. It provi
    npm start
    ```
    The application should now be running on `http://localhost:3000`.
-   Deployed Link `deployed_link`
+   Deployed Link [https://trello-frontend-omega.vercel.app]
 
 ## Usage
 
