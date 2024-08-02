@@ -20,7 +20,7 @@ const TaskBoard = () => {
   };
 
   const tasks = projects.flatMap(project =>
-    project.tasks.map(task => ({ ...task, projectName: project.name }))
+    project?.tasks?.map(task => ({ ...task, projectName: project.name }))
   );
 
   const statuses = ['Backlog', 'In Discussion', 'In Progress', 'Done'];
