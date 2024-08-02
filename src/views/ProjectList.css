@@ -1,0 +1,22 @@
+.project-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .add-btn {
+    float: right;
+  }
+  
+  .project-title {
+    color: #007bff;
+  }
+  
+  .project-modal .btn-success {
+    width: 100%;
+  }
+  

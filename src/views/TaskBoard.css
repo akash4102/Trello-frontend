@@ -1,0 +1,48 @@
+.status-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .status-header {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .status-backlog { background-color: #f76c6c; }
+  .status-in-discussion { background-color: #f7d976; }
+  .status-in-progress { background-color: #6cb2f7; }
+  .status-done { background-color: #76d995; }
+  
+  .task-card {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .task-badge {
+    background-color: #eeeeee;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 4px;
+    float: right;
+  }
+  
+  .due-date {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.8em;
+    color: #666;
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+    color: #f76c6c;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,88 @@
+.project-details {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .task-card {
+    background: #ffffff;
+    border: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .task-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .task-title {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .add-task-modal .modal-content {
+    border-radius: 10px;
+  }
+  
+  .add-task-modal .btn-success {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .add-task-modal .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-task-modal .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-task-modal .form-label {
+    font-weight: bold;
+  }
+  
+  .badge {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  
+  .button {
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+  
+  .modal-header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #dedede;
+  }
+  
+  .modal-title {
+    color: #0056b3;
+  }
+  
+  /* Styling for buttons */
+  .button-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+  }
+  
+  .button-outline-danger:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  .button-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+  }
+  
+  .button-outline-success:hover {
+    background-color: #28a745;
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,29 @@
+.custom-navbar {
+    background-color: #343a40; /* Darker shade for a more elegant look */
+    border-bottom: 3px solid #007bff; /* A touch of color to highlight */
+  }
+  
+  .navbar-brand-custom {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #007bff; /* Stylish brand color */
+  }
+  
+  .custom-nav-links .nav-link {
+    color: #adb5bd; /* Softer color for unselected items */
+    margin-right: 10px; /* Spacing between links */
+    transition: color 0.3s ease-in-out; /* Smooth transition for hover effect */
+  }
+  
+  .custom-nav-links .nav-link:hover, .custom-nav-links .nav-link:focus {
+    color: #ffffff; /* Bright color on hover for better visibility */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 991px) {
+    .custom-navbar {
+      background-color: #23272b; /* Slightly lighter for mobile view */
+    }
+  }
+  
