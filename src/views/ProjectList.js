@@ -20,7 +20,7 @@ const ProjectList = () => {
 
   const handleCreateProject = async (data) => {
     try {
-      const response = await axios.post('/projects', data);
+      const response = await axios.post('/project', data);
       const newProjectData = response.data;
       setProjects([...projects, newProjectData]);
       handleClose();
