@@ -34,20 +34,20 @@ const TaskBoard = () => {
             <div className={`status-card status-${status.replace(/\s+/g, '-').toLowerCase()}`}>
               <h4 className="status-header">{status}</h4>
               {tasks
-                .filter(task => task.status === status)
+                ?.filter(task => task?.status === status)
                 .map(task => (
-                  <Card key={task._id} className="task-card">
+                  <Card key={task?._id} className="task-card">
                     <Card.Body>
-                      <Card.Title>{task.name}</Card.Title>
+                      <Card.Title>{task?.name}</Card.Title>
                       <Card.Subtitle>
-                        <small>{task.projectName}</small>
+                        <small>{task?.projectName}</small>
                       </Card.Subtitle>
                       <Card.Text>
-                        {task.description}
-                        <Badge className="task-badge">{task.tags.join(', ')}</Badge>
-                        <small className="due-date">Due: {new Date(task.dueDate).toLocaleDateString()}</small>
+                        {task?.description}
+                        <Badge className="task-badge">{task?.tags.join(', ')}</Badge>
+                        <small className="due-date">Due: {new Date(task?.dueDate).toLocaleDateString()}</small>
                       </Card.Text>
-                      <Button variant="outline-danger" onClick={() => handleDeleteTask(task._id)}>
+                      <Button variant="outline-danger" onClick={() => handleDeleteTask(task?._id)}>
                         Delete
                       </Button>
                     </Card.Body>
