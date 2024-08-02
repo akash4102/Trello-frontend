@@ -24,7 +24,9 @@ const ProjectDetails = () => {
     try {
       const token = localStorage.getItem('token');
       axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
-      await axios.post('/task', { ...data, project: project._id });
+      const tagsArray = data.tags.split(',').map(tag => tag.trim()).filter(tag => tag !== '');
+      const taskData = { ...data, tags: tagsArray, project: project._id };
+      await axios.post('/task', taskData);
       fetchProjects();
       handleClose();
     } catch (error) {
