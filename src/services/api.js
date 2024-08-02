@@ -1,8 +1,7 @@
-// src/services/api.js
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api/v1', // Update with your backend URL
+  baseURL: 'https://trello-backend-lyart.vercel.app/api/v1',
   withCredentials: true,
 });
 

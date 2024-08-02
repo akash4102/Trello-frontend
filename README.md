@@ -14,9 +14,6 @@ This is a simple Trello clone application built with React and Node.js. It provi
 ## Technologies Used
 
 - **Frontend:** React, React-Bootstrap, React Router, React Hook Form
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** JWT (JSON Web Tokens)
 - **HTTP Client:** Axios
 
 ## Installation
@@ -26,50 +23,11 @@ This is a simple Trello clone application built with React and Node.js. It provi
    ```bash
    git clone https://github.com/yourusername/trello-clone.git
    cd trello-clone
+   npm install
+   npm start
    ```
-
-2. **Install dependencies:**
-
-   - **Frontend:**
-
-     ```bash
-     cd client
-     npm install
-     ```
-
-   - **Backend:**
-
-     ```bash
-     cd server
-     npm install
-     ```
-
-3. **Environment Variables:**
-
-   Create a `.env` file in the server directory with the following variables:
-
-   ```env
-   MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
-   ```
-
-4. **Run the application:**
-
-   - **Backend:**
-
-     ```bash
-     cd server
-     npm start
-     ```
-
-   - **Frontend:**
-
-     ```bash
-     cd client
-     npm start
-     ```
-
    The application should now be running on `http://localhost:3000`.
+   Deployed Link `deployed_link`
 
 ## Usage
 
@@ -77,20 +35,3 @@ This is a simple Trello clone application built with React and Node.js. It provi
 - Create a new project from the dashboard.
 - Add tasks to your project, specifying details such as task name, description, and due date.
 - Manage tasks by updating their status or deleting them if necessary.
-
-## Screenshots
-
-![Dashboard](screenshot1.png)
-![Project Details](screenshot2.png)
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Contact
-
-For any inquiries, please contact [Your Name](mailto:your-email@example.com).
